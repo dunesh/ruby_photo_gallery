@@ -1,0 +1,124 @@
+/*better indentation and alignment needed*/
+*
+{
+    margin:0;
+    padding:0;
+
+  }
+
+  body
+    {
+     background-color:maroon;
+    }
+
+ .wrapper
+  {
+  width:960px;
+  margin:0 auto;
+  display:block;
+  margin-top:20px;
+  height:auto;
+  }
+
+ .header
+  {
+  font-size:50px;
+  float:left;
+  color:maroon;
+  display:block;
+  height:100px;
+  width:960px;
+  text-align:center;
+  background-color:	#DCDCDC;
+  }
+
+ .gallery
+  {
+  float:left;
+  display:block;
+  width:960px;
+  height:auto;
+
+
+  }
+  .gallery ul
+  	{
+    	list-style:none;
+
+ 	}
+
+  .gallery ul li a
+  {
+
+  }
+  .submit
+  {
+    float:left;
+    display:block;
+    
+  }
+
+.comments
+{
+  float:left;
+  display:block;
+  height:70px;
+  width:876px;
+  margin:auto;
+  
+}
+
+ .footer
+  {
+  	float:left;
+  	display:block;
+  	width:960px;
+  	height:50px;
+  	text-align:center;
+    background-color:	#DCDCDC;
+  }
+
+
+.pic
+  {
+  	float:left;
+   	width:800px;
+  	height:600px;
+  	margin:40px;
+  	padding:40px;
+  	box-shadow: 10px 10px 5px #888;
+  }
+  .pics
+  {
+  	float:left;
+   	width:400px;
+  	height:300px;
+  	margin:40px;
+  	box-shadow: 10px 10px 5px #888;
+  }
+
+.pics:hover
+  {
+  	margin:40px;
+  	box-shadow: 10px 10px 5px #888;
+  }
+
+.pics:hover
+  {
+  	transform: rotate(-3deg);
+  	-ms-transform: rotate(-3deg) scale(1.5); /* IE 9 */
+		-webkit-transform: rotate(-3deg) scale(1.5); /* Safari and Chrome */
+		-o-transform: rotate(-3deg) scale(1.5); /* Opera */
+		-moz-transform: rotate(-3deg) scale(1.5); /* Firefox */
+  }
+
+#comment
+  {
+  display:block;
+  margin:0 0 0 0;
+  }
+
+p
+  {
+   margin:15px 0 0 0;
+  }
