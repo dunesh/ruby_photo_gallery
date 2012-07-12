@@ -2,8 +2,11 @@ $(document).ready(function()
 {
   $("img").click(function()
   {
+    alert('<%= @comment.last_name %>');
+
      var image = this.src;
-     $.facebox('<img src="'+image+'" class="pic"/><form id="comment" action="create"><textarea class="comments" name="comment"></textarea><input type="hidden" name="id" value="'+image+'"><input type="submit" class="submit" value="submit"/></form>');
+     var comment = '<img src="'+image+'" class="pic"/><p></p><form id="comment" action="create"><textarea class="comments" name="comment"></textarea><input type="hidden" name="id" value="'+image+'"><input type="submit" class="submit" value="submit"/></form>';
+          $.facebox(comment);  
    });
 });
 
